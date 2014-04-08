@@ -7,6 +7,9 @@
   <remote  name="Calogeyer"
            fetch="https://github.com/GeyerA/" />
 
+  <remote  name="CodefireXperiment"
+           fetch="https://github.com/codefireXperiment/" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
@@ -321,6 +324,7 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CFXWeather" name="packages_apps_CFXWeather" remote="CodefireXperiment" revision="kk-devel" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
@@ -335,7 +339,7 @@
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="Calogeyer" revision="master" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="Calogeyer" revision="master" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="Calogeyer" revision="kitkat" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
