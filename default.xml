@@ -463,11 +463,11 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="Calogeyer" revision="somex-4.4" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="Calogeyer" revision="somex-4.4" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="Calogeyer" revision="somex-4.4" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="Calogeyer" revision="somex-4.4" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="Calogeyer" revision="somex-4.4" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="Calogeyer" revision="somex-4.4" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="Shiny" revision="master" />
+  <project path="vendor/broadcom" name="android_vendor_broadcom" remote="Shiny" revision="master" />
+  <project path="vendor/nxp" name="android_vendor_nxp" remote="Shiny" revision="master" />
+  <project path="vendor/imgtec" name="android_vendor_imgtec" remote="Shiny" revision="master" />
+  <project path="vendor/invensense" name="android_vendor_invensense" remote="Shiny" revision="master" />
+  <project path="vendor/widevine" name="android_vendor_widevine" remote="Shiny" revision="master" />
 
 </manifest>
