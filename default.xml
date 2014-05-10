@@ -280,7 +280,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="Calogeyer" revision="master" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -472,7 +472,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="Shiny" revision="master" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="Calogeyer" revision="master" />
   <project path="vendor/broadcom" name="android_vendor_broadcom" remote="Shiny" revision="master" />
   <project path="vendor/nxp" name="android_vendor_nxp" remote="Shiny" revision="master" />
   <project path="vendor/imgtec" name="android_vendor_imgtec" remote="Shiny" revision="master" />
