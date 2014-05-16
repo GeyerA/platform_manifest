@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
            
   <remote  name="Calogeyer"
            fetch="https://github.com/GeyerA/" />
@@ -10,8 +11,8 @@
   <remote  name="CodefireXperiment"
            fetch="https://github.com/codefireXperiment/" />
 
-  <remote name="vanir"
-           fetch="https://github.com/VanirAOSP/" />
+  <remote name="SlimRoms"
+           fetch="https://github.com/SlimRoms/" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
@@ -22,6 +23,9 @@
   <remote  name="nameless"
            fetch="https://github.com/NamelessRom"
            review="gerrit.nameless-rom.org" />
+
+  <remote  name="Somex"
+           fetch="https://github.com/SomethingExplosive" />
            
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
@@ -71,9 +75,6 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" groups="device,mako" remote="Calogeyer" revision="master" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="Calogeyer" revision="master" groups="device,maguro"/>
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="Calogeyer" revision="master" groups="device,tuna" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="Calogeyer" revision="master" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -469,11 +470,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <!-- project path="vendor/samsung" name="android_vendor_samsung" remote="Calogeyer" revision="master" /-->
-  <!-- project path="vendor/broadcom" name="android_vendor_broadcom" remote="Shiny" revision="master" /-->
-  <!-- project path="vendor/nxp" name="android_vendor_nxp" remote="Shiny" revision="master" /-->
-  <!-- project path="vendor/imgtec" name="android_vendor_imgtec" remote="Shiny" revision="master" /-->
-  <!-- project path="vendor/invensense" name="android_vendor_invensense" remote="Shiny" revision="master" /-->
-  <!-- project path="vendor/widevine" name="android_vendor_widevine" remote="Shiny" revision="master" /-->
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="Shiny" revision="master" groups="device,tuna,maguro" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="Shiny" revision="master" groups="device,tuna" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="Calogeyer" revision="master" />
 
 </manifest>
