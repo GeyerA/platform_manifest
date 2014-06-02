@@ -8,6 +8,9 @@
   <remote  name="Calogeyer"
            fetch="https://github.com/GeyerA/" />
 
+  <remote name="rascarlo"
+           fetch="git://github.com/rascarlo/" /> 
+
   <remote  name="CodefireXperiment"
            fetch="https://github.com/codefireXperiment/" />
 
@@ -280,7 +283,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform_frameworks_native_maguro" remote="Calogeyer" revision="master" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="Calogeyer" revision="master" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -468,6 +471,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="Calogeyer" revision="master" groups="device,tuna,maguro" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="Calogeyer" revision="master" groups="device,tuna" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="Calogeyer" revision="master" />
