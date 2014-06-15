@@ -263,7 +263,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="Calogeyer" revision="android-4.4.3" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -452,7 +452,7 @@
 
   <!-- project path="vendor/lge" name="android_vendor_lge" remote="Rascarlo" revision="kk-ras-mr3_r1.1" /-->
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="Calogeyer" revision="master" groups="device,tuna,maguro" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="Calogeyer" revision="master" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="Calogeyer" revision="android-4.4.3" groups="device,tuna" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="Calogeyer" revision="master" />
 
 </manifest>
