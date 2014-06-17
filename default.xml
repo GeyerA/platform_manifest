@@ -456,9 +456,17 @@
 
   <!-- project path="vendor/lge" name="android_vendor_lge" remote="Rascarlo" revision="kk-ras-mr3_r1.1" /-->
   <project path="vendor/lge" name="android_vendor_lge" remote="Calogeyer" revision="android-4.4.3" />
+  <project path="vendor/broadcom" name="android_vendor_broadcom" remote="Calogeyer" revision="master" />
+  <project path="vendor/imgtec" name="android_vendor_imgtec" remote="Calogeyer" revision="master" />
+  <project path="vendor/invensense" name="android_vendor_invensense" remote="Calogeyer" revision="master" />
+  <project path="vendor/nxp" name="android_vendor_nxp" remote="Calogeyer" revision="master" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="Calogeyer" revision="master" />
+  <project path="vendor/ti" name="android_vendor_ti" remote="Calogeyer" revision="master" />
+  <project path="vendor/widevine" name="android_vendor_widevine" remote="Calogeyer" revision="master" />
+
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="Calogeyer" revision="master" groups="device,tuna,maguro" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="Calogeyer" revision="android-4.4.3" groups="device,tuna" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="Calogeyer" revision="master" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="Calogeyer" revision="android-4-4.3" groups="device,toro" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="Calogeyer" revision="android-4.4.3" groups="device,toro" />
 
 </manifest>
