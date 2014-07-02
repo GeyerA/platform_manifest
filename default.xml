@@ -460,7 +460,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!--project path="vendor/lge" name="android_vendor_lge" remote="Rascarlo" revision="kk-ras-mr4_r1" /-->
-  <project path="vendor/lge" name="android_vendor_lge" remote="Rascarlo" revision="kk-ras-mr4_r1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="Calogeyer" revision="android-4.4.4" />
   <project path="vendor/broadcom" name="android_vendor_broadcom" remote="Calogeyer" revision="master" />
   <project path="vendor/imgtec" name="android_vendor_imgtec" remote="Calogeyer" revision="master" />
   <project path="vendor/invensense" name="android_vendor_invensense" remote="Calogeyer" revision="master" />
