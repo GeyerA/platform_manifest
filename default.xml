@@ -478,15 +478,4 @@
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="Calogeyer" revision="master" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="Calogeyer" revision="android-4.4.3" groups="device,toro" />
 
-  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="Calogeyer" revision="android-4.4.4" />
-  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="Calogeyer" revision="android-4.4.4" />
-
-  <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" groups="device,bacon" remote="Calogeyer" revision="android-4.4.4" />
-  <project path="kernel/oneplus/msm8974" name="android_kernel_oneplus_msm8974" groups="device,bacon" remote="Calogeyer" revision="fku" />
-  <project path="device/oppo/common" name="android_device_oppo_common" remote="Calogeyer" revision="android-4.4.4" />
-  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" groups="device,msm8974-common" remote="Calogeyer" revision="android-4.4.4" />
-  <project path="vendor/pa" name="android_vendor_pa" remote="Calogeyer" revision="android-4.4.4" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="Calogeyer" revision="android-4.4.4" />
-  <project path="frameworks/opt/connectivity" name="android_frameworks_opt_connectivity" remote="Calogeyer" revision="android-4.4.4" />
-
 </manifest>
