@@ -12,11 +12,16 @@
            fetch="https://github.com/ShinyROM/" />
 
   <remote  name="AOSPA"
-           fetch="https://github.com"
-           review="gerrit.paranoidandroid.co" />
+           fetch="https://github.com/AOSPA/" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
+
+  <remote  name="jackpal"
+           fetch="https://github.com/jackpal/" />
 
   <remote  name="teameos"
            fetch="git://github.com/teameos/" />
@@ -64,7 +69,7 @@
   <project path="kernel/hammerhead" name="kernel_hammerhead" groups="device,hammerhead" remote="Calogeyer" revision="android-4.4.4" />
   <project path="device/lge/mako" name="device_lge_mako" groups="device,mako" remote="Calogeyer" revision="android-4.4.4" />
   <project path="kernel/mako" name="kernel_mako" groups="device,mako" remote="Calogeyer" revision="android-4.4.4" />
-  <!--project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako"-->
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -84,7 +89,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="Calogeyer" revision="kk-4.4" />
+  <project path="external/busybox" name="android_external_busybox" remote="AOSPA" revision="kitkat" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -168,8 +173,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="Koush_Superuser" remote="Calogeyer" revision="android-4.4.4" />
+  <project path="external/koush/Widgets" name="Koush_Widgets" remote="Calogeyer" revision="android-4.4.4" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -322,6 +327,8 @@
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/AndroidKernelTweaker" name="android_kernel_tweaker" remote="Calogeyer" revision="master" />
+  <project path="packages/apps/AndroidTerminalEmulator" name="Android-Terminal-Emulator" remote="jackpal" revision="master" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -349,7 +356,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="Calogeyer" revision="android-4.4.4" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="AOSPA" revision="kitkat" />
+  <project path="packages/apps/Lightbulb" name="android_packages_apps_Lightbulb" remote="AOSPA" revision="kitkat" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
@@ -447,7 +454,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="Calogeyer" revision="android-4.4.4" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
