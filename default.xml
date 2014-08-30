@@ -481,6 +481,7 @@
   <project path="vendor/samsung" name="android_vendor_samsung" remote="Calogeyer" revision="master" />
   <project path="vendor/ti" name="android_vendor_ti" remote="Calogeyer" revision="master" />
   <project path="vendor/widevine" name="android_vendor_widevine" remote="Calogeyer" revision="master" />
+  <project path="vendor/csr" name="android_vendor_csr" remote="Calogeyer" revision="master" />
 
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="Calogeyer" revision="master" groups="device,tuna,maguro" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="Calogeyer" revision="android-4.4.3" groups="device,tuna" />
