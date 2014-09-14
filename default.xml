@@ -72,7 +72,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="Calogeyer" revision="android-4.4.3" />
-  <project path="kernel/hammerhead" name="kernel_hammerhead" groups="device,hammerhead" remote="Calogeyer" revision="android-4.4.4" />
+  <project path="kernel/hammerhead/msm" name="kernel_hammerhead" groups="device,hammerhead" remote="Calogeyer" revision="android-4.4.4_r2" />
   <project path="device/lge/mako" name="device_lge_mako" groups="device,mako" remote="Calogeyer" revision="android-4.4.4" />
   <project path="kernel/mako" name="kernel_mako" groups="device,mako" remote="Calogeyer" revision="android-4.4.4" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
