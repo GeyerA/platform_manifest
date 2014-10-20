@@ -7,7 +7,7 @@
   <remote  name="Calogeyer"
            fetch="https://github.com/GeyerA/" />
 
-  <default revision="l-preview"
+  <default revision="refs/tags/android-l-preview_r2"
            remote="aosp"
            sync-j="4" />
 
