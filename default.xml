@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="aosp"
-           fetch=".."
+<remote  name="aosp"
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="Calogeyer"
+           fetch="https://github.com/GeyerA/" />
+
   <default revision="l-preview"
            remote="aosp"
            sync-j="4" />
@@ -480,5 +483,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+  <!--project path="vendor/lge" name="android_vendor_lge" remote="Rascarlo" revision="kk-ras-mr4_r1" /-->
+  <project path="vendor/lge" name="android_vendor_lge" remote="Calogeyer" revision="android-4.4.4" />
 
 </manifest>
