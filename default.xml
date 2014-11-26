@@ -11,6 +11,9 @@
   <remote  name="Calogeyer"
            fetch="https://github.com/GeyerA/" />
 
+  <remote  name="ThankYouMario"
+           fetch="https://github.com/ThankYouMario/" />
+
   <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
            sync-j="4" />
@@ -30,6 +33,8 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -357,6 +362,7 @@
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/AndroidKernelTweaker" name="android_kernel_tweaker" remote="Calogeyer" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -504,6 +510,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Vendor -->
+  <project path="vendor/lge/hammerhead" name="proprietary_vendor_lge_hammerhead" remote="ThankYouMario" revision="lollipop" />
 
   <!-- External -->
   <project path="external/busybox" name="Euphoria-OS/android_external_busybox" remote="github" revision="lollipop" />
