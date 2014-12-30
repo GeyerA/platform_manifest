@@ -521,7 +521,7 @@
   <!-- Vendor -->
   <project path="vendor/lge/hammerhead" name="proprietary_vendor_lge_hammerhead" remote="ThankYouMario" revision="lollipop" />
   <project path="vendor/lge/mako" name="proprietary_vendor_lge_mako" remote="ThankYouMario" revision="lollipop" />
-  <project path="vendor/asus/flo" name="proprietary_vendor_asus_flo" remote="ThankYouMario" revision="lollipop" />
+  <project path="vendor/asus/flo" name="device_asus_flo" remote="Calogeyer" revision="Lollipop" />
 
   <!-- External -->
   <project path="external/libtruezip" name="Euphoria-OS/android_external_libtruezip" remote="github" revision="lollipop" />
