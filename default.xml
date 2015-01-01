@@ -519,7 +519,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Vendor -->
-  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="Calogeyer" revision="Lollipop" />
   <project path="vendor/asus/flo" name="vendor_asus_flo" remote="Calogeyer" revision="Lollipop" />
 
   <!-- External -->
