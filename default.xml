@@ -520,7 +520,7 @@
 
   <!-- Vendor -->
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
-  <project path="vendor/asus/flo" name="device_asus_flo" remote="Calogeyer" revision="Lollipop" />
+  <project path="vendor/asus/flo" name="vendor_asus_flo" remote="Calogeyer" revision="Lollipop" />
 
   <!-- External -->
   <project path="external/libtruezip" name="Euphoria-OS/android_external_libtruezip" remote="github" revision="lollipop" />
