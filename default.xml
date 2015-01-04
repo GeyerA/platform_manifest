@@ -532,7 +532,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" />
 
-  <!-- Apps -->
+  <!-- Apps and extras -->
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.0" />
