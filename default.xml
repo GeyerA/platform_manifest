@@ -533,9 +533,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" />
 
   <!-- Apps -->
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/LockClock" name="LockClock" remote="Calogeyer" revision="Lollipop" />
 
   <!-- Koush's Superuser -->
