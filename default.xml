@@ -496,8 +496,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="Calogeyer" revision="Lollipop" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="Calogeyer" revision="Lollipop" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -523,9 +523,9 @@
   <project path="vendor/asus/flo" name="vendor_asus_flo" remote="Calogeyer" revision="Lollipop" />
 
   <!-- External -->
-  <project path="external/libtruezip" name="Euphoria-OS/android_external_libtruezip" remote="github" revision="lollipop" />
-  <project path="external/zip" name="Euphoria-OS/android_external_zip" remote="github" revision="lollipop" />
-  <project path="external/unrar" name="Euphoria-OS/android_external_unrar" remote="github" revision="lollipop" />
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="external/zip" name="android_external_zip" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="external/unrar" name="android_external_unrar" remote="CyanogenMod" revision="cm-12.0" />
 
   <!-- Gcc Ueber -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" />
