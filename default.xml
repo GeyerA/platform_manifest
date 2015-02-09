@@ -531,9 +531,9 @@
   <project path="external/unrar" name="android_external_unrar" remote="CyanogenMod" revision="cm-12.0" />
 
   <!-- Gcc Ueber -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" />
+  <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" /> -->
+  <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" /> -->
+  <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" /> -->
 
   <!-- Apps and extras -->
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="CyanogenMod" revision="cm-12.0" />
@@ -544,7 +544,7 @@
   <project path="packages/apps/LockClock" name="LockClock" remote="Calogeyer" revision="Lollipop" />
 
   <!-- Koush's Superuser -->
-  <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.0" />
+  <!--   <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.0" /> -->
+  <!--   <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.0" /> -->
 
 </manifest>
