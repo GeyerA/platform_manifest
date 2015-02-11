@@ -532,6 +532,7 @@
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="lollipop-ras-mr1" />
 
   <!-- External -->
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="CyanogenMod" revision="cm-12.0" />
   <project path="external/libtruezip" name="android_external_libtruezip" remote="CyanogenMod" revision="cm-12.0" />
   <project path="external/zip" name="android_external_zip" remote="CyanogenMod" revision="cm-12.0" />
   <project path="external/unrar" name="android_external_unrar" remote="CyanogenMod" revision="cm-12.0" />
