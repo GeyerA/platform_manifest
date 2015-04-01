@@ -26,7 +26,7 @@
   <remote name="felixpalmer"
            fetch="git://github.com/felixpalmer/" />
 
-  <default revision="refs/tags/android-5.1.0_r1"
+  <default revision="refs/tags/android-5.1.0_r3"
            remote="aosp"
            sync-j="4" />
 
@@ -550,14 +550,26 @@
 
   <!-- Apps and extras -->
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="CyanogenMod" revision="cm-12.0" />
- <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-12.0" />
- <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="CyanogenMod" revision="cm-12.0" />
- <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.0" />
   <project path="packages/apps/LockClock" name="LockClock" remote="Calogeyer" revision="Lollipop" />
 
   <!-- Koush's Superuser -->
   <!--  <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.0" /> -->
   <!--  <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.0" /> -->
+
+  <!-- Sony Sony :-) -->
+
+  <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
+
+  <project path="device/sony/leo" name="device-sony-leo" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/shinano" name="device-sony-shinano" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/sirius" name="device-sony-sirius" groups="device" remote="sony" revision="master" />
+  <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
+  <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+  <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
+  <project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 
 </manifest>
