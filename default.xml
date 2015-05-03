@@ -2,7 +2,24 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="Calogeyer"
+           fetch="https://github.com/GeyerA/" />
+
+  <remote  name="ThankYouMario"
+           fetch="https://github.com/ThankYouMario/" />
+
+  <remote name="rascarlo"
+           fetch="git://github.com/rascarlo/" />
+
+  <remote name="CyanogenMod"
+           fetch="git://github.com/cyanogenmod/" />
+
   <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -510,5 +527,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Koush's Superuser -->
+  <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.1" />
 
 </manifest>
