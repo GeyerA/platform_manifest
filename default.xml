@@ -26,7 +26,10 @@
   <remote name="felixpalmer"
            fetch="git://github.com/felixpalmer/" />
 
-  <default revision="refs/tags/android-5.1.1_r1"
+  <remote name="sony"
+           fetch="git://github.com/sonyxperiadev/" />
+
+  <default revision="refs/tags/android-5.1.1_r2"
            remote="aosp"
            sync-j="4" />
 
@@ -88,7 +91,6 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
@@ -156,7 +158,6 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" />
-  <project path="external/google" name="android_external_google" remote="CyanogenMod" revision="cm-12.0" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" />
@@ -327,7 +328,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="Calogeyer" revision="5.1" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -444,7 +445,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="Calogeyer" revision="5.1" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -537,39 +538,45 @@
   <project path="vendor/moto" name="android_vendor_moto" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="lollipop-ras-mr1" />
 
-  <!-- External -->
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="external/libtruezip" name="android_external_libtruezip" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="external/zip" name="android_external_zip" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="external/unrar" name="android_external_unrar" remote="CyanogenMod" revision="cm-12.0" />
-
   <!-- Gcc Ueber -->
   <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" /> -->
   <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" /> -->
   <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" /> -->
 
-  <!-- Apps and extras -->
-  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-12.0" />
+  <!-- Koush's Superuser and other CM stuff -->
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/google" name="android_external_google" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/unrar" name="android_external_unrar" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/zip" name="android_external_zip" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-12.1" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="packages/apps/LockClock" name="LockClock" remote="Calogeyer" revision="Lollipop" />
-
-  <!-- Koush's Superuser -->
-  <!--  <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.0" /> -->
-  <!--  <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.0" /> -->
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="CyanogenMod" revision="cm-12.1" />
 
   <!-- Sony Sony :-) -->
-
-  <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
-
-  <project path="device/sony/leo" name="device-sony-leo" groups="device" remote="sony" revision="master" />
-  <project path="device/sony/shinano" name="device-sony-shinano" groups="device" remote="sony" revision="master" />
-  <project path="device/sony/sirius" name="device-sony-sirius" groups="device" remote="sony" revision="master" />
-  <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
-  <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
-  <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
-  <project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+  <!-- <project path="device/sony/amami" name="device-sony-amami" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/aries" name="device-sony-aries" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/castor" name="device-sony-castor" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/eagle" name="device-sony-eagle" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/flamingo" name="device-sony-flamingo" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/honami" name="device-sony-honami" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/leo" name="device-sony-leo" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/rhine" name="device-sony-rhine" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/scorpion" name="device-sony-scorpion" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/seagull" name="device-sony-seagull" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/shinano" name="device-sony-shinano" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/sirius" name="device-sony-sirius" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/tianchi" name="device-sony-tianchi" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/togari" name="device-sony-togari" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="device/sony/yukon" name="device-sony-yukon" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067" /> -->
+  <!-- <project path="vendor/sony/kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" /> -->
+  <!-- <project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" /> -->
 
 </manifest>
