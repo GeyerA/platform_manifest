@@ -535,7 +535,7 @@
   <!-- Vendor -->
   <project path="vendor/asus/flo" name="vendor_asus_flo" remote="Calogeyer" revision="Lollipop" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
-  <project path="vendor/moto" name="android_vendor_moto" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <!--  <project path="vendor/moto" name="android_vendor_moto" remote="rascarlo" revision="lollipop-ras-mr1" /> -->
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="lollipop-ras-mr1" />
 
   <!-- Gcc Ueber -->
