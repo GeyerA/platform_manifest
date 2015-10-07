@@ -2,7 +2,33 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
+<remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="Calogeyer"
+           fetch="https://github.com/GeyerA/" />
+
+  <remote  name="ThankYouMario"
+           fetch="https://github.com/ThankYouMario/" />
+
+  <remote name="rascarlo"
+           fetch="git://github.com/rascarlo/" />
+
+  <remote name="CyanogenMod"
+           fetch="git://github.com/cyanogenmod/" />
+
+  <remote name="OmniROM"
+           fetch="git://github.com/omnirom/" />
+
+  <remote name="felixpalmer"
+           fetch="git://github.com/felixpalmer/" />
+
+  <remote name="sony"
+           fetch="git://github.com/sonyxperiadev/" />
+
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -24,8 +50,8 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
+  <!-- <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" /> -->
+  <!-- <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" /> -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -43,12 +69,14 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
+  <!-- <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" /> -->
+  <!-- <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" /> -->
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+  <project path="device/lge/mako" name="device_lge_mako" groups="device,mako" remote="Calogeyer" revision="5.1" />
+  <!-- <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" remote="aosp" revision="5.1" /> -->
+  <!-- <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" /> -->
+  <!-- <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" /> -->
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -474,5 +502,30 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Vendor -->
+  <project path="vendor/asus/flo" name="vendor_asus_flo" remote="Calogeyer" revision="Lollipop" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <!--  <project path="vendor/moto" name="android_vendor_moto" remote="rascarlo" revision="lollipop-ras-mr1" /> -->
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="lollipop-ras-mr1" />
+
+  <!-- Gcc Ueber -->
+  <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" /> -->
+  <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" /> -->
+  <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" /> -->
+
+  <!-- Koush's Superuser and other CM stuff -->
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/google" name="android_external_google" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/unrar" name="android_external_unrar" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/zip" name="android_external_zip" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="CyanogenMod" revision="cm-12.1" />
 
 </manifest>
