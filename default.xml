@@ -33,7 +33,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="android_build" groups="pdk" remote="Calogeyer" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -288,7 +288,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="Calogeyer" revision="mm" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -407,7 +407,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" groups="pdk-fs" remote="Calogeyer" revision="mm" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -480,8 +480,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="Calogeyer" revision="mm" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="Calogeyer" revision="mm" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -504,7 +504,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Vendor -->
-  <project path="vendor/asus/flo" name="vendor_asus_flo" remote="Calogeyer" revision="Lollipop" />
+  <!-- <project path="vendor/asus/flo" name="vendor_asus_flo" remote="Calogeyer" revision="Lollipop" /> -->
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
   <!--  <project path="vendor/moto" name="android_vendor_moto" remote="rascarlo" revision="lollipop-ras-mr1" /> -->
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="lollipop-ras-mr1" />
@@ -514,12 +514,13 @@
   <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" /> -->
   <!--     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" /> -->
 
-  <!-- Koush's Superuser and other CM stuff -->
+  <!-- Koush's Superuser and other stuff -->
+  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-13.0" />
   <project path="external/koush/Superuser" name="Superuser" remote="CyanogenMod" revision="cm-12.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="CyanogenMod" revision="cm-13.0" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="CyanogenMod" revision="cm-12.0" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-12.1" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="CyanogenMod" revision="cm-12.1" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="CyanogenMod" revision="cm-13.0" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="CyanogenMod" revision="cm-13.0" />
 
 </manifest>
