@@ -8,7 +8,7 @@
            fetch="https://github.com/sonyxperiadev/" />
 
   <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-7.1-legacy" />
-  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.0" />
+  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.1-legacy" />
 
   <project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.1-legacy" />
   <project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.1" />
@@ -25,12 +25,20 @@
   <project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.1" />
 
+<<<<<<< HEAD
   <project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="android-7.1" />
+=======
+  <project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="android-7.1-legacy" />
+>>>>>>> 0b0f7acf76f425c0b205a876f09c9253a7267389
   <project path="device/sony/togari" name="SonyAosp/device_sony_togari" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/amami" name="SonyAosp/device_sony_amami" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="android-7.1" />
 
+<<<<<<< HEAD
   <project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.1" />
+=======
+  <project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.1-legacy" />
+>>>>>>> 0b0f7acf76f425c0b205a876f09c9253a7267389
   <project path="device/sony/sirius" name="SonyAosp/device_sony_sirius" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/castor" name="SonyAosp/device_sony_castor" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/castor_windy" name="SonyAosp/device_sony_castor_windy" groups="device" remote="github" revision="android-7.1" />
