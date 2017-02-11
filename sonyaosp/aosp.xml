@@ -17,7 +17,6 @@
   <project path="hardware/qcom/camera" name="SonyAosp/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="android-7.0" />
   <project path="hardware/qcom/display" name="SonyAosp/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="android-7.1-legacy" />
   <project path="hardware/qcom/fm" name="SonyAosp/platform_hardware_qcom_fm" remote="github" revision="master" />
-  <project path="hardware/qcom/gps" name="SonyAosp/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="android-7.1" />
   <project path="hardware/qcom/keymaster" name="SonyAosp/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="android-7.1" />
   <project path="hardware/qcom/location" name="SonyAosp/platform_hardware_qcom_location" remote="github" revision="master" />
   <project path="hardware/qcom/media" name="SonyAosp/platform_hardware_qcom_media" groups="qcom" remote="github" revision="android-7.1-legacy" />
