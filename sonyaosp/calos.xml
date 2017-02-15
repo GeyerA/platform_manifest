@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="frameworks/base" name="GeyerA/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="N7" />
+
+  <project path="device/sony/common" name="GeyerA/device_sony_common" groups="device" remote="github" revision="N7" />
+
+
+  <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-7.1" />
+  <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-7.1" />
+  <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="github" revision="android-7.1" />
+  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-7.1" />
+
+  <project path="external/android-visualizer" name="felixpalmer/android-visualizer" remote="github" revision="master" />
+  <project path="system/media" name="GeyerA/platform_system_media" groups="pdk" remote="github" revision="N7" />
+
+</manifest>

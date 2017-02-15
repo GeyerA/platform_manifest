@@ -3,11 +3,15 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <default revision="refs/tags/android-7.1.1_r20"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="GeyerA/platform_build" groups="pdk,tradefed" remote="github" revision="N7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -314,7 +318,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -517,7 +520,6 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
@@ -545,6 +547,7 @@
   <include name="sonyaosp/remove.xml" />
   <include name="sonyaosp/sony.xml" />
   <include name="sonyaosp/aosp.xml" />
+  <include name="sonyaosp/calos.xml" />
   <include name="sonyaosp/opengapps.xml" />
 
 </manifest>
