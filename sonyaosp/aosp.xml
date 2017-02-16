@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="build" name="GeyerA/platform_build" groups="pdk,tradefed" remote="github" revision="N7" >
+  <project path="build" name="GeyerA/android_build" groups="pdk,tradefed" remote="github" revision="N7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
