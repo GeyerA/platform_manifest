@@ -7,7 +7,7 @@
 
 
   <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-7.1" />
-  <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-7.1" />
+  <project path="packages/apps/DSPManager" name="GeyerA/android_packages_apps_DSPManager" remote="github" revision="N7" />
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="github" revision="android-7.1" />
   <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-7.1" />
 
