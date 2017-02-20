@@ -10,6 +10,7 @@
   <project path="external/toybox" name="SonyAosp/platform_external_toybox" groups="pdk" remote="github" revision="android-7.1" />
 
   <project path="frameworks/av" name="SonyAosp/platform_frameworks_av" groups="pdk" remote="github" revision="android-7.1" />
+  <project path="frameworks/opt/telephony" name="SonyAosp/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="android-7.1" />
 
   <project path="hardware/qcom/audio" name="SonyAosp/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="android-7.1-legacy" />
   <project path="hardware/qcom/bt" name="SonyAosp/platform_hardware_qcom_bt" groups="qcom" remote="github" revision="android-7.1" />
