@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-7.1.1_r20"
+  <default revision="refs/tags/android-7.1.1_r25"
            remote="aosp"
            sync-j="4" />
 
@@ -548,7 +548,8 @@
   <include name="sonyaosp/remove.xml" />
   <include name="sonyaosp/sony.xml" />
   <include name="sonyaosp/aosp.xml" />
-  <include name="sonyaosp/calos.xml" />
   <include name="sonyaosp/opengapps.xml" />
+
+  <include name="sonyaosp/calos.xml" />
 
 </manifest>
